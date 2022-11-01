@@ -283,14 +283,14 @@ img {
 }
 .work-list {
   display: flex;
+  margin-left: -30px;
 }
 
 .work-item {
   position: relative;
-
-  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
-  margin-bottom: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+ 
 }
 
 .work-item-images {
@@ -322,10 +322,6 @@ img {
   text-transform: uppercase;
 
   color: var(--white-color);
-}
-
-.work-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .work-title {
